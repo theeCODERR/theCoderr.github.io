@@ -1,0 +1,18 @@
+.folks{
+    font-size: 0.8em;
+}
+.post{
+    color: green;
+}
+
+/* responsive design */
+
+@media only screen and (max-width: 1169px) {
+    .folks{
+        font-size: 0.3em;
+        color: white;
+    }
+    .mess{
+        font-size: 0.5em;
+    }
+}

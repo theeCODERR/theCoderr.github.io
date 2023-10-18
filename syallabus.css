@@ -1,0 +1,42 @@
+.heading{
+    font-size: 3em;
+    background-color: brown;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 80px;
+    color: white;
+    margin-top: 10%;
+}
+.gea{
+    padding-top: 50px;
+}
+.classes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.class{
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.class a{
+    color: black;
+    font-size: 1.5em;
+}
+.class a:hover{
+    color: red;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 1200px) {
+    .heading{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 397px) {
+    .heading{
+        font-size: 1.5em;
+    }
+}

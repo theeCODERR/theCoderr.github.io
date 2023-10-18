@@ -1,0 +1,27 @@
+.admission-data{
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 250px;
+}
+.parents{
+    font-size: 1.7em;
+}
+.admission{
+    font-size: 1.5em;
+    font-family: josefin sans;
+    text-decoration: underline;
+}
+.lists{
+    padding-left: 30px;
+    line-height: 2.5;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 1193px) {
+    .admission-data{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+}

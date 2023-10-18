@@ -1,0 +1,21 @@
+.title{
+    font-size: 1.5em;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+.facilitate-head{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.facility{
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 1235px) {
+    .facilitate-head{
+        margin-left: 20px;
+    }
+    .facility{
+        padding-left: 0px;
+    }
+}

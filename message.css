@@ -1,0 +1,101 @@
+.messages{
+    background-image: url("./images/bg/typing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    padding-top: 80px;
+    font-size: 3em;
+}
+.mess{
+    color: white;
+    background-color: black;
+    width: 40%;
+    border-radius: 40px;
+    font-family: quicksand;
+}
+.contain-message{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.desk{
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.principal-message{
+    padding-bottom: 70px;
+    padding-top: 70px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    background-color: #EEEEEE;
+    border-radius: 40px;
+    box-shadow: 5px 10px 5px 10px black;
+    transform: skewX(160deg);
+}
+.principal-message:hover{
+    box-shadow: 5px 10px 5px 10px red;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.principal-image{
+    width: 450px;
+    margin-top: 70px;
+    padding-left: 150px;
+}
+.principal-name{
+    padding-left: 150px;
+}
+
+/* Responsive navbar-css */
+@media screen and (max-width: 999px) {
+    .principal-image{
+        width: 450px;
+        margin-top: 50px;
+    }
+    .principal-message{
+        transform: skewX(0deg);
+        box-shadow: 0px 0px 0px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }.principal-image{
+        margin-top: 70px;
+        padding-left: 0px;
+    }
+    .principal-name{
+        padding-left: 0px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 967px) {
+    .principal-message {
+        background-color: white;
+    }
+  }
+
+  @media only screen and (max-width: 842px) {
+    .mess{
+        width: 250px;
+        text-align: center;
+    }
+    .principal-message{
+        font-size: 1rem;
+    }
+    .principal-image{
+        margin-top: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 673px) {
+    .contain-message{
+        margin-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 498px) {
+    .principal-image{
+        width: 290px;
+    }
+  }
